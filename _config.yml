@@ -1,11 +1,12 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Scienceable lab # your name (or website title) here
+logo: "/images/sandrine_portrait.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Sandrine Muller, Eng. Msc., PhD
   <br><br>
-  Second description 
+  Hey there! 
+  My name is Sandrine Muller. I am an electrical engineer from brackground (CPE Lyon/EPFL). I graduated from my PhD in neurosciences in 2017. I have expertise in neuroimaging and computational biology with an axis on methodologies for health big data.  
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/sandrine-muller-phd-ba459725/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
