@@ -22,6 +22,34 @@
       gtag('config', '{{ site.google_analytics }}');
    </script>
    {% endif %}
+
+   <style>
+      /* Basic styles for the navigation bar */
+      .navbar {
+          background-color: #333; /* Dark background color */
+          overflow: hidden; /* Clear floats */
+      }
+
+      .navbar a {
+          float: left; /* Align links to the left */
+          display: block; /* Make links block elements */
+          color: white; /* White text color */
+          text-align: center; /* Center text */
+          padding: 14px 16px; /* Padding around the text */
+          text-decoration: none; /* Remove underline from links */
+      }
+
+      .navbar a:hover {
+          background-color: #ddd; /* Light background on hover */
+          color: black; /* Black text on hover */
+      }
+
+      .navbar a.active {
+          background-color: #04AA6D; /* Active link color */
+          color: white; /* White text for active link */
+      }
+   </style>
+   
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,13 +57,19 @@
    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 </head>
 <body>
+   <div class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">Research</a>
+      <a href="#about">Teaching</a>
+      <a href="#contact">Contact</a>
+   </div>
    <div class="wrapper">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
          <img src="{{site.logo | relative_url}}" alt="Logo" />
          {% endif %}
-         <p>{{ site.description | default: site.github.project_tagline }}{{ site.social_profiles}}</p>
+         
          <!-- <p>{{ site.social_profiles | default: site.github.project_tagline }}</p> -->
          <!-- {% if site.github.is_project_page %}
          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
@@ -58,6 +92,7 @@
          {% if site.github.is_project_page %}
          <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
          {% endif %}
+         <p>{{ site.description | default: site.github.project_tagline }}{{ site.social_profiles}}</p>
          <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
    </div>
