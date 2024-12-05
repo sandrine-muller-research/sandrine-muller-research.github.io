@@ -25,7 +25,7 @@
 ---
 
 
-
+<p>{{ site.description | default: site.github.project_tagline }}{{ site.social_profiles}}</p>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
