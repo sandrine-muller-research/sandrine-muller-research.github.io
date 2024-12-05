@@ -28,10 +28,11 @@
       .navbar {
           background-color: #333; /* Dark background color */
           overflow: hidden; /* Clear floats */
+          display: flex; /* Use flexbox for layout */
+          justify-content: flex-end; /* Align items to the right */
       }
 
       .navbar a {
-          float: left; /* Align links to the left */
           display: block; /* Make links block elements */
           color: white; /* White text color */
           text-align: center; /* Center text */
@@ -42,11 +43,6 @@
       .navbar a:hover {
           background-color: #ddd; /* Light background on hover */
           color: black; /* Black text on hover */
-      }
-
-      .navbar a.active {
-          background-color: #04AA6D; /* Active link color */
-          color: white; /* White text for active link */
       }
    </style>
    
@@ -63,6 +59,7 @@
       <a href="#about">Teaching</a>
       <a href="#contact">Contact</a>
    </div>
+   <div></div>
    <div class="wrapper">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
