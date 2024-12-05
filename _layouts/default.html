@@ -26,11 +26,11 @@
    <style>
       /* Basic styles for the navigation bar */
       .navbar {
-          background-color: #333; /* Dark background color */
+          background-color: #420459; /* Dark background color */
           overflow: hidden; /* Clear floats */
           display: flex; /* Use flexbox for layout */
           justify-content: flex-end; /* Align items to the right */
-          padding-bottom: 20px;
+          margin-bottom: 20px;
       }
 
       .navbar a {
@@ -45,6 +45,10 @@
           background-color: #ddd; /* Light background on hover */
           color: black; /* Black text on hover */
       }
+      h1 {
+         color: #420459;
+      }
+      
    </style>
    
    <meta charset="UTF-8">
@@ -55,12 +59,12 @@
 </head>
 <body>
    <div class="navbar">
-      <a href="#home" class="active">Home</a>
+      <a href="#index" class="active">Home</a>
       <a href="#about">Research</a>
-      <a href="#about">Teaching</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#bio-sandrine">The team</a>
       <a href="#contact">Contact</a>
    </div>
-   <div></div>
    <div class="wrapper">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
