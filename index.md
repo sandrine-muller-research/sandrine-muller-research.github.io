@@ -1,8 +1,8 @@
-## Portfolio
+## ScienceAble lab
 
 ---
 
-### Category Name 1 
+### Science 
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -17,13 +17,10 @@
 
 ---
 
-### Category Name 2
+### Teaching
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Introduction to Statistical Parametric Mapping for Neuroimaging - University Grenoble Alpes, master 2 AI4OH](https://www.masterai4onehealth.eu/)
+
 
 ---
 
