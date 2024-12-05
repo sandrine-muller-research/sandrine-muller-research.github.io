@@ -25,7 +25,17 @@
 ---
 
 
-<p>{{ site.description | default: site.github.project_tagline }}{{ site.social_profiles}}</p>
+<p>
+  <a href="https://github.com/your-github-username" target="_blank" title="GitHub">
+    <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white" alt="GitHub Profile">
+  </a>
+  <a href="https://www.linkedin.com/in/sandrine-muller-phd-ba459725/" target="_blank" title="LinkedIn">
+    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Profile">
+  </a>
+  <a href="https://bsky.app/profile/sandrine-muller.bsky.social" target="_blank" title="Bluesky">
+    <img src="https://img.shields.io/badge/-Bluesky-00A1E4?style=flat&logo=bluesky&logoColor=white" alt="Bluesky Profile">
+  </a>
+</p>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
