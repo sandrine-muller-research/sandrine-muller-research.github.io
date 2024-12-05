@@ -7,8 +7,16 @@ description: > # your text below (remove <br> elements if you don't need line br
   My name is Sandrine Muller and I lead ScienceAble lab. We are glad you joined and hope you get some fun browsing our projects!
   <br><br>
 
-# social_profiles:
-
+social_profiles:
+  <a href="https://github.com/your-github-username" target="_blank" title="GitHub">
+    <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white" alt="GitHub Profile">
+  </a>
+  <a href="https://www.linkedin.com/in/sandrine-muller-phd-ba459725/" target="_blank" title="LinkedIn">
+    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Profile">
+  </a>
+  <a href="https://bsky.app/profile/sandrine-muller.bsky.social" target="_blank" title="Bluesky">
+    <img src="https://img.shields.io/badge/-Bluesky-00A1E4?style=flat&logo=bluesky&logoColor=black&label=" alt="Bluesky Logo">
+  </a>
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
