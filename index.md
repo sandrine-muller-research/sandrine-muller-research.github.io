@@ -2,7 +2,7 @@
 
 ---
 
-### Science 
+### Science projects
 
 [Project 1 Title](/sample_page)
 <!--<img src="images/dummy_thumbnail.jpg?raw=true"/> -->
@@ -17,7 +17,7 @@
 
 ---
 
-### Teaching
+### Teaching courses
 
 - [Introduction to Statistical Parametric Mapping for Neuroimaging - University Grenoble Alpes, master 2 AI4OH](https://www.masterai4onehealth.eu/)
 
