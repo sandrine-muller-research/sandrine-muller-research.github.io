@@ -8,6 +8,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
 # <a href="https://www.linkedin.com/in/sandrine-muller-phd-ba459725/">View My LinkedIn Profile</a> 
   # <br><br>
+social_profiles:
   <br><br>
   <a href="https://github.com/your-github-username" target="_blank" title="GitHub">
     <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white" alt="GitHub Profile">
