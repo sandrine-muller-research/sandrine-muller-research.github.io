@@ -1,16 +1,14 @@
-# Welcome to Asst. Prof. Sandrine Muller
+## Scientific courses - Teaching 
 
-- [Research](/research/)
-- [Teaching](/teaching/)
-- [The Team](/bio-sandrine/)
-- [Contact](/contact/)
+- 2024: [Introduction to Statistical Parametric Mapping for Neuroimaging - University Grenoble Alpes, master 2 AI4OH](https://www.masterai4onehealth.eu/)
+- 2025: [Introduction to RNA sequencing data - University Grenoble Alpes, master 2 AI4OH](https://www.masterai4onehealth.eu/)
+- 2025: [Introduction to Biomedical ontologies - University Grenoble Alpes, master 2 AI4OH](https://www.masterai4onehealth.eu/)
 
----
-## Actualities
-- April 2025, Sandrine Muller joind the LIGLAB, Grenoble Computer Science Laboratory, CNRS-UGA, Grenoble, France. 
 
 ---
-<div class="elfsight-app-bd5c0e76-24c5-48a2-8b69-476725a54eb4" data-elfsight-app-lazy></div>
+## Scientific vulgarization
+- 2019: From neuroimaging to genetics, micro and macro differences in autism patients. Conference of the inauguration of the SESSAD la Dauphinelle “Autism and ambulatory follow-up”, Paris, France 
+- 2016: [Ma thèse en 180 secondes](https://www.youtube.com/watch?v=aRtPXjr-6tk)
 
 ---
 
