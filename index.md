@@ -1,9 +1,7 @@
-# Welcome to Asst. Prof. Sandrine Muller
+# Welcome to Asst. Prof. Sandrine Muller's pages
 
-- [Research](/research/)
-- [Teaching](/teaching/)
-- [The Team](/bio-sandrine/)
-- [Contact](/contact/)
+## Want to join, would like to collaborate?
+You can reach me at: sandrine.muller [at] univ-grenoble-alpes [dot] fr
 
 ---
 ## Actualities

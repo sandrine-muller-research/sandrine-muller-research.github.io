@@ -94,16 +94,6 @@
          {% if site.logo %}
          <img src="{{site.logo | relative_url}}" alt="Logo" />
          {% endif %}
-         {% if page.url == "/" %}
-         <!-- Elfsight LinkedIn Feed | SandrineMullerLIFeed -->
-         <script src="https://static.elfsight.com/platform/platform.js" async></script>
-         <div class="elfsight-app-bd5c0e76-24c5-48a2-8b69-476725a54eb4" data-elfsight-app-lazy></div>
-         {% endif %}
-         {% if page.url == "/contact/" %}
-         <div class="google-maps"></div>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2811.8172375578383!2d5.764789711875912!3d45.190795751518415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af50837597d0d%3A0x7089f5efffec5353!2sGrenoble%20Computer%20Science%20Laboratory%20-%20LIGLAB!5e0!3m2!1sen!2sfr!4v1745851827454!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
-         {% endif %}
          <!-- <p>{{ site.social_profiles | default: site.github.project_tagline }}</p> -->
          <!-- {% if site.github.is_project_page %}
          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
@@ -121,6 +111,16 @@
       </header>
       <section>
          {{ content }}
+         {% if page.url == "/" %}
+         <!-- Elfsight LinkedIn Feed | SandrineMullerLIFeed -->
+         <script src="https://static.elfsight.com/platform/platform.js" async></script>
+         <div class="elfsight-app-bd5c0e76-24c5-48a2-8b69-476725a54eb4" data-elfsight-app-lazy></div>
+         {% endif %}
+         {% if page.url == "/contact/" %}
+         <div class="google-maps"></div>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2811.8172375578383!2d5.764789711875912!3d45.190795751518415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af50837597d0d%3A0x7089f5efffec5353!2sGrenoble%20Computer%20Science%20Laboratory%20-%20LIGLAB!5e0!3m2!1sen!2sfr!4v1745851827454!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+         {% endif %}
       </section>
       <footer>
          {% if site.github.is_project_page %}
