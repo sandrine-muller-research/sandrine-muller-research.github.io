@@ -8,7 +8,7 @@ You can reach me at: sandrine.muller [at] univ-grenoble-alpes [dot] fr
 - April 2025, Sandrine Muller joind the LIGLAB, Grenoble Computer Science Laboratory, CNRS-UGA, Grenoble, France. 
 
 ---
-<div class="elfsight-app-bd5c0e76-24c5-48a2-8b69-476725a54eb4" data-elfsight-app-lazy></div>
+<!-- <div class="elfsight-app-bd5c0e76-24c5-48a2-8b69-476725a54eb4" data-elfsight-app-lazy></div> -->
 
 ---
 
