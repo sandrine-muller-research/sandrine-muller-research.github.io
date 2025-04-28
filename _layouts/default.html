@@ -24,6 +24,9 @@
    {% endif %}
 
    <style>
+      .site-title {
+         color: #333333;
+      }
       /* Basic styles for the navigation bar */
       .navbar {
           background-color: #420459; /* Dark background color */
@@ -39,12 +42,18 @@
           text-align: center; /* Center text */
           padding: 14px 16px; /* Padding around the text */
           text-decoration: none; /* Remove underline from links */
+          transition: color 0.2s, background-color 0.2s;
       }
 
       .navbar a:hover {
           background-color: #ddd; /* Light background on hover */
           color: black; /* Black text on hover */
       }
+
+      .navbar a:active {
+         color: #d3d3d3e0; /* Light grey text when clicked */
+     }
+
       h1 {
          color: #420459;
       }
