@@ -2,15 +2,14 @@
 
 **LIG - Laboratoire d’Informatique de Grenoble** 
 Office 303 (third floor) 
-700 Avenue Centrale  
+700 Avenue Centrale
 38401 Saint-Martin-d'Hères  
 France
 
 
-<div class="google-maps"></div>
 
 
----
+<!-- ---
 
 
 <p>
@@ -26,5 +25,5 @@ France
 </p>
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->
 <!-- Remove above link if you don't want to attibute -->
