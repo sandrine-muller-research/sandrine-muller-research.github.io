@@ -6,11 +6,7 @@ Office 303 (third floor)
 38401 Saint-Martin-d'Hères  
 France
 
-
-
-
-<!-- ---
-
+---
 
 <p>
   <a href="https://github.com/sandrine-muller-research/" target="_blank" title="GitHub">
@@ -25,5 +21,5 @@ France
 </p>
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->
+<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
