@@ -64,14 +64,78 @@
          overflow: hidden;
          margin-top: 1em;
          margin-bottom: 1em;
-       }
+      }
        .google-maps iframe {
          position: absolute;
          top: 0;
          left: 0;
          width: 100% !important;
          height: 100% !important;
-       }
+      }
+       .profile-section {
+         margin-bottom: 2em;
+         padding-bottom: 2em;
+         border-bottom: 1px solid #ccc; /* thin grey separator */
+      }
+      .section-title {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 1em;
+      text-align: left;
+      color: #333;
+      }
+      .profile-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2em;
+      }
+      .profile-card {
+      text-align: center;
+      width: 150px;
+      cursor: pointer;
+      margin-bottom: 0; /* no extra space, handled by grid */
+      border: 1px solid transparent;
+      padding-bottom: 0.5em;
+      transition: border-color 0.3s;
+      background: #fff;
+      }
+      .profile-card:hover {
+      border-color: #420459;
+      }
+      .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #ccc;
+      transition: border-color 0.3s;
+      }
+      .profile-img:hover {
+      border-color: #420459;
+      }
+      .profile-name {
+      margin-top: 0.5em;
+      font-weight: bold;
+      font-size: 1.1em;
+      }
+      .profile-subheader {
+      font-weight: normal;
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 0.2em;
+      }
+      .profile-bio {
+      display: none; 
+      margin-top: 0.8em;
+      font-size: 0.9em;
+      color: #333;
+      border-top: 1px solid #ddd;
+      padding-top: 0.5em;
+      text-align: left;
+      }
+      .profile-card.active .profile-bio {
+      display: block;
+      }
    </style>
    
    <meta charset="UTF-8">
