@@ -91,7 +91,7 @@
    <div class="wrapper">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-         {% if site.logo %}
+         {% if site.logo and if page.url != "/bios.html"%}
          <img src="{{site.logo | relative_url}}" alt="Team" />
          {% endif %}
          {% if site.show_downloads %}
