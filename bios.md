@@ -3,7 +3,7 @@
   text-align: center;
   width: 150px;
   cursor: pointer;
-  margin-bottom: 1.5em; /* space below each card */
+  margin-bottom: 6em; /* space below each card */
   border: 1px solid transparent;
   padding-bottom: 0.5em;
   transition: border-color 0.3s;
@@ -51,7 +51,7 @@
   <div class="profile-card" onclick="this.classList.toggle('active')">
     <img class="profile-img" src="/images/sandrine_portrait.png" alt="Sandrine Muller">
     <div class="profile-name">Sandrine Muller, Eng. Msc., PhD</div>
-    <div class="profile-subheader">Asst. Prof., Group lead</div>
+    <div class="profile-subheader">Tenure track Asst. Prof., Group lead</div>
     <div class="profile-bio">Sandrine Muller is a tenure track assistant professor at the LIGLAB (Informatics Laboratory of Grenoble), Grenoble-Alpes University (UGA). In April 2025, Sandrine joined UGA, hosting one of the top AI French cluster, to pursue her academic career in AI for health. During her academic career, Sandrine specialized in the fields of artificial intelligence (AI) applied to chemoinformatics, genomics, and brain imaging with core component in methodology. Her current interests are on data integration, health use cases, and Bayesian generative modelling. 
     With a PhD in neuroscience, her expertise lies in statistical analysis applied to high-dimensional health data, particularly in small sample size problems.
     Throughout her scientific career, both in academia and the private sector, she has collaborated with renowned institutions such as the Swiss Federal Institute of Technology in Lausanne (EPFL), Harvard Medical School/Massachusetts General Hospital, Duke University, and the Broad Institute of MIT and Harvard.
