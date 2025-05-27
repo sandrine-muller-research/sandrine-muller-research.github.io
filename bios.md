@@ -1,15 +1,33 @@
 <style>
+.profile-section {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc; /* thin grey separator */
+}
+.section-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: left;
+  color: #333;
+}
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
 .profile-card {
   text-align: center;
   width: 150px;
   cursor: pointer;
-  margin-bottom: 6em; /* space below each card */
+  margin-bottom: 0; /* no extra space, handled by grid */
   border: 1px solid transparent;
   padding-bottom: 0.5em;
   transition: border-color 0.3s;
+  background: #fff;
 }
 .profile-card:hover {
-  border-color: #0078d7;
+  border-color: #420459;
 }
 .profile-img {
   width: 120px;
@@ -20,7 +38,7 @@
   transition: border-color 0.3s;
 }
 .profile-img:hover {
-  border-color: #0078d7;
+  border-color: #420459;
 }
 .profile-name {
   margin-top: 0.5em;
@@ -43,7 +61,7 @@
   text-align: left;
 }
 .profile-card.active .profile-bio {
-  display: block; /* show bio when active */
+  display: block;
 }
 </style>
 
@@ -57,6 +75,7 @@
     Throughout her scientific career, both in academia and the private sector, she has collaborated with renowned institutions such as the Swiss Federal Institute of Technology in Lausanne (EPFL), Harvard Medical School/Massachusetts General Hospital, Duke University, and the Broad Institute of MIT and Harvard.
     Her work encompasses various aspects of health, from chemical biology (gene expression analysis to biomarker discovery), and extends to machine learning domains, including signal processing, Bayesian statistics, predictive analysis, biological networks, and experimental design.</div>
   </div>
+
   <div class="profile-card" onclick="this.classList.toggle('active')">
     <img class="profile-img" src="person2.jpg" alt="Laurent Torlay">
     <div class="profile-name">Laurent Torlay,  Eng. Msc.</div>
