@@ -1,12 +1,13 @@
-# Welcome to Asst. Prof. Sandrine Muller's pages
+# Welcome to Health Data Integration and Exploitation team pages
 
 ## Want to join / would like to collaborate?
-You can reach me at: sandrine.muller [at] univ-grenoble-alpes [dot] fr
+You can reach us at: sandrine.muller [at] univ-grenoble-alpes [dot] fr
 
 ---
 ## Actualities
+- May 2025 : Fatemeh Khodadadi and Laurent Torlay joined the Health Data Integration and Exploitation team! Welcome Fatemeh and Laurent!
 - April 2025: Sandrine Muller joined the LIGLAB, Grenoble Computer Science Laboratory, CNRS-UGA, Grenoble, France. 
-- November 2024: Sandrine Muller was awarded as part of a multi-PI OTH NIH/NCATS funding to lead the user engagement plan for the  <a href="https://ui.transltr.io/" target="_blank" title="Biomedical Data translator Performance phase"> (2024-2029)
+- November 2024: Sandrine Muller was awarded as part of a multi-PI OTH NIH/NCATS funding to lead the user engagement plan for the <a href="https://ui.transltr.io/" target="_blank" title="Biomedical Data translator Performance phase"> (2024-2029)
 
 ---
 <!-- <div class="elfsight-app-bd5c0e76-24c5-48a2-8b69-476725a54eb4" data-elfsight-app-lazy></div> -->
