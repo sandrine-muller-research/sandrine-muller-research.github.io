@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 .profile-section {
   margin-bottom: 2em;
   padding-bottom: 2em;
@@ -63,7 +63,7 @@
 .profile-card.active .profile-bio {
   display: block;
 }
-</style>
+</style> -->
 
 <div class="profile-grid">
   <div class="profile-card" onclick="this.classList.toggle('active')">
@@ -77,7 +77,7 @@
   </div>
 
   <div class="profile-card" onclick="this.classList.toggle('active')">
-    <img class="profile-img" src="person2.jpg" alt="Laurent Torlay">
+    <img class="profile-img" src="/images/blank-profile.png" alt="Laurent Torlay">
     <div class="profile-name">Laurent Torlay,  Eng. Msc.</div>
     <div class="profile-subheader">Senior staff scientist</div>
     <div class="profile-bio">...</div>
