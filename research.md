@@ -32,7 +32,15 @@ Neuro-Clinical Signatures of Language Impairments: A Theoretical Framework for F
 
 
 ---
+---
+### Machine learning algorithms for system biology: FAIR usage of user preferences in model convergence
+[Spatial MVB]()
+<!--<img src="images/dummy_thumbnail.jpg?raw=true"/>-->
+Selected Publications:
 
+
+
+---
 
 <p>
   <a href="https://github.com/sandrine-muller-research/" target="_blank" title="GitHub">
