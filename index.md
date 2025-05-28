@@ -1,4 +1,4 @@
-# Welcome to Health Data Integration and Exploitation team pages
+# Welcome to Health Data Integration and Exploitation group pages
 
 ## Want to join / would like to collaborate?
 You can reach us at: sandrine.muller [at] univ-grenoble-alpes [dot] fr
