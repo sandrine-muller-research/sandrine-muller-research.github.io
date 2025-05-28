@@ -6,6 +6,7 @@
 ---
 ## Mentorship:
 - 2025: Single Cell RNA sequencing of FSHD1 patients - Fatemeh Khodadadi, Biotechnology M1 student
+
 ---
 ## Scientific vulgarization
 - July 2025: Presentation - Responsible Artificial Intelligence: Explainability Data Transparency and Security for Academic Stakeholders - Rhône-Alpes conference of Deans of Pharmacy, Clermont-Ferrand, France
